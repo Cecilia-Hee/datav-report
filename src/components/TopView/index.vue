@@ -2,7 +2,7 @@
  * @Author: Helijun
  * @Date: 2020-06-11 18:43:51
  * @LastEditors: Helijun
- * @LastEditTime: 2020-06-12 18:44:14
+ * @LastEditTime: 2020-06-15 16:28:19
  * @Description: 
 --> 
 <template>
@@ -53,5 +53,8 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+.top-view {
+  margin-bottom: 20px;
+}
 </style>
