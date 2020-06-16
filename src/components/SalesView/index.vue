@@ -2,7 +2,7 @@
  * @Author: Helijun
  * @Date: 2020-06-15 16:27:05
  * @LastEditors: Helijun
- * @LastEditTime: 2020-06-15 18:32:44
+ * @LastEditTime: 2020-06-16 09:29:38
  * @Description: 
 --> 
 <template>
@@ -184,10 +184,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.sales-view {
+  margin-bottom: 20px;
+}
 .menu-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 0 20px;
   .el-radio-group {
     margin-right: 20px;
   }
